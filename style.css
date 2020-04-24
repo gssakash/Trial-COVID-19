@@ -220,6 +220,11 @@ a.nav-link:hover{
     .about-image{
         padding-right: 0px;
     }
+    
+    .about-container{
+        margin-top:10vh;
+        margin-bottom:10vh;
+    }
 
 }
 
