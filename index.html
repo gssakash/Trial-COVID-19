@@ -18,7 +18,7 @@
 
      <!--Navbar Section-->
      <section class="nav-container" id="navbar">
-        <nav class="navbar-default navbar navbar-expand-lg navbar-light bg-light static-top">
+        <nav class="navbar-default navbar navbar-expand-lg static-top">  <!-- navbar-light bg-light-->
           <div class="navbar-brand">
               <a class="navbar-brand" href="#Home">
                 <i class="fas fa-virus ml-4" style="color:rgb(3, 71, 116); font-size:60px;"></i>   
@@ -270,6 +270,7 @@
 <!--JS For Light Bulb-->
 
 <script>
+    
     function _(e) {
 	return document.getElementById(e);
 }
@@ -311,14 +312,9 @@ _('nmode').onclick = function() {
     
   
 }
-document.getElementById('dark-mode-btn').addEventListener('click', function (e) {
-        toggler.classList.remove("bg-light");
-        toggler.classList.remove("nav-light");
-        toggler.classList.toggle('dark-mode');
-        const target = e.target;
-        target.classList.toggle('fa-moon');
-        target.classList.toggle('fa-sun');
-      });
+
+
+
 function nightRun() {
 
 	if (lastnight == 0) { var dt = 1; }

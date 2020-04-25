@@ -50,9 +50,7 @@ html.sr .load-hidden {
     visibility: hidden;
 }
 
-.btn .dark-mode-btn:focus{
-    outline: none;
-}
+
 
 /* End of Pre Styling */
 
@@ -114,12 +112,18 @@ a.nav-link:hover{
 }
 
 .navbar-default {
-    background-color: white !important;
+    background-color: none !important;
 }
 
 .nav-link {
-    color:black !important;
+    color:rgb(199, 199, 199);
 }
+
+.nav-link:hover{
+  color:rgb(199,199,199);
+}
+
+
 
 /*End of navbar */
 
