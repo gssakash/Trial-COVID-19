@@ -7,8 +7,32 @@
     font-family: 'Nunito Sans', sans-serif;
 }
 
+
+:root {
+  
+  --background: #121212;
+
+  --black: rgb(20,20,20);
+  --dark-gray: rgb(75,75,75);
+  --light-gray: rgb(185,185,185);
+  --white: rgb(255, 255, 255);
+
+}  
+
+/*CSS for light bulb */
+
+body {
+  background: var(--background);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  overflow-x:hidden;
+  font-size: 100%;
+  color: var(--white);
+}
+
 hr{
-    border-bottom:2px solid rgb(3, 71, 116);
+    border-bottom:2px solid rgb(68, 169, 209);
     margin-left:100px;
     margin-right:100px;
 }
@@ -26,8 +50,8 @@ html.sr .load-hidden {
     visibility: hidden;
 }
 
-body{
-    overflow-x:hidden;
+.btn .dark-mode-btn:focus{
+    outline: none;
 }
 
 /* End of Pre Styling */
@@ -68,6 +92,7 @@ nav{
 
   .navbar-light .navbar-toggler{
     outline:none;
+    border:1px solid transparent;
   }
 /* 
   #reviews{
@@ -80,7 +105,7 @@ nav{
 
 
 a.nav-link:hover{
-  border-bottom:2px solid rgb(3, 71, 116);
+  border-bottom:2px solid rgb(68, 169, 209);
 }
 
 .logo a{
@@ -117,7 +142,7 @@ a.nav-link:hover{
 }
 .home-text h4{
     font-weight:500;
-    color:rgb(3, 71, 116);
+    color:rgb(68, 169, 209);
 }
 
 /* #Home{
@@ -141,7 +166,7 @@ a.nav-link:hover{
 
 .about-text h1{
     font-weight:bolder;
-    color:rgb(3, 71, 116);
+    color:rgb(68, 169, 209);
 }
 
 /* Symptoms */
