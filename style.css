@@ -88,10 +88,22 @@ nav{
     padding-right:25px;
   }
 
-  .navbar-light .navbar-toggler{
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler i:focus {
+      outline: none;
+      box-shadow: none;
+  }
+/* 
+  .navbar-toggler:focus, .navbar-toggler:active {
+outline: none;
+box-shadow: none;
+} */
+
+  /* .navbar-light .navbar-toggler{
     outline:none;
     border:1px solid transparent;
-  }
+  } */
 /* 
   #reviews{
     margin-right:90px;
@@ -117,13 +129,19 @@ a.nav-link:hover{
 
 .nav-link {
     color:rgb(199, 199, 199);
+    font-weight:bolder;
 }
 
 .nav-link:hover{
   color:rgb(199,199,199);
+  font-size:20px;
 }
 
-
+.dark-bulb button:focus 
+{
+  outline: none;
+  box-shadow:none;
+}
 
 /*End of navbar */
 
