@@ -252,7 +252,7 @@ a.nav-link:hover{
     }
       
     *{
-        font-size:14px;
+        font-size:18px;
     }
 
         
@@ -467,3 +467,5 @@ a.nav-link:hover{
       font-size: 14px;
     }
   }
+
+  /* Image Checking */
